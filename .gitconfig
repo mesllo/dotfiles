@@ -1,0 +1,5 @@
+[user]
+    # Wabalabadubdub
+
+[include]
+    path = ~/.gitconfig_local

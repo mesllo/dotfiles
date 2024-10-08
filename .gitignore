@@ -1,0 +1,17 @@
+.cache
+.conda
+.dotnet
+.local
+.nv
+.pyenv
+.ssh
+.vscode-remote-containers
+.vscode-server
+.miniconda3
+dev
+miniconda3/
+.bash_history
+.gitconfig_local
+.motd_shown
+.python_history
+.sudo_as_admin_successful
