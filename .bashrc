@@ -116,9 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# Created by `pipx` on 2024-05-28 21:32:21
-export PATH="$PATH:/home/mesllo/.local/bin"
-
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/mesllo/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
@@ -133,6 +130,9 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+# Created by `pipx` on 2024-05-28 21:32:21
+export PATH="$PATH:/home/mesllo/.local/bin"
 
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
