@@ -1,0 +1,19 @@
+dev-containers
+github-repositories
+remote-ssh
+remote-ssh-editing-configuration-files
+remote-tunnels
+remote-development
+remote-explorer
+remote-repositories
+wsl
+copilot # activate on wsl
+copilot-chat # activate on wsl
+jupyter # activate on wsl
+jupyter-cell-tags # activate on wsl
+jupyter-notebook-renderers # activate on wsl
+jupyter-slide-show # activate on wsl
+jupyter-keymap # activate on wsl
+pylance # activate on wsl
+python # activate on wsl
+python-debugger # activate on wsl
