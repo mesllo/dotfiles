@@ -1,5 +1,3 @@
 [user]
+    name = mesllo
     # Wabalabadubdub
-
-[include]
-    path = ~/.gitconfig_local

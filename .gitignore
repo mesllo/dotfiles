@@ -13,7 +13,6 @@
 dev
 miniconda3/
 .bash_history
-.gitconfig_local
 .motd_shown
 .python_history
 .sudo_as_admin_successful

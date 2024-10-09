@@ -116,6 +116,13 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# check if git user email env var is set and prompt user to set it if not
+if [ -z "$GIT_AUTHOR_EMAIL" ]; then
+    read -p "Enter your Git email: " git_email
+    export GIT_AUTHOR_EMAIL="$git_email"
+    export GIT_COMMITTER_EMAIL="$git_email"
+fi
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/mesllo/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
