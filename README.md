@@ -18,6 +18,11 @@ git remote add origin [repo-ssh-url]
 source ./install/install_all.sh
 ```
 
+6. Untrack any folders/files that you don't want tracked by git (even though they're in `.gitignore`)
+```
+git rm -r --cached --ignore-unmatch path_to_your_folder/
+```
+
 ## Useful stuff
 
 ### Working on a gnome terminal instead
