@@ -137,3 +137,5 @@ export PATH="$PATH:/home/mesllo/.local/bin"
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+
+eval `keychain --eval --agents ssh mesllo-git-gauss`

@@ -1,6 +1,8 @@
 .cache
 .conda
+.config
 .dotnet
+.keychain
 .local
 .nv
 .pyenv

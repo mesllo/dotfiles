@@ -14,6 +14,9 @@ if [[ ! -d "$modules_dir" ]]; then
     exit 1
 fi
 
+sudo apt update
+sudo apt upgrade
+
 # Check and run the primary script first
 if [[ -x "$primary_script" ]]; then
     echo "Running $primary_script..."
@@ -34,6 +37,7 @@ for script in "$modules_dir"/*.sh; do
     fi
     if [[ -x "$script" ]]; then
         sudo apt update
+        sudo apt upgrade
         echo "Running $script..."
         ./"$script"
         if [[ $? -ne 0 ]]; then
@@ -44,5 +48,7 @@ for script in "$modules_dir"/*.sh; do
         echo "Error: $script is not executable or not found."
     fi
 done
+
+source ~/.bashrc
 
 echo "All scripts executed successfully."
