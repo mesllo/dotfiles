@@ -1,5 +1,7 @@
 # dotfiles
 
+Finally got round to maintaining my own dotfile environment. It's far from perfect, but it's a start! Feel free to clone/fork/whatever but use at your own risk!
+
 ## Installation
 
 1. If you're on a new machine, first create a new SSH key on Github by following the steps below (ensure the correct name of the ssh key as is on `.bashrc`).
