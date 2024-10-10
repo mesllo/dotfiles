@@ -1,6 +1,6 @@
 # dotfiles
 
-Finally got round to maintaining my own dotfile environment. It's far from perfect, but it's a start! Feel free to clone/fork/whatever but use at your own risk!
+Finally got round to maintaining my own dotfile environment. It's far from perfect, but it's a start! Feel free to take anything for yourself from here but use at your own risk!
 
 ## Installation
 
